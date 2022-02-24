@@ -1,0 +1,242 @@
+/* Tanbim Riad */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.fixed-width{
+    width: 1124px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+/*Header sectioN*/
+.header{
+    background:#1abc9c;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.685);
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left h4{
+    display: inline-block;
+    padding: 10px 0;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.header-right ul{
+    list-style: none;
+    line-height: 40px;
+}
+.header-right ul li {
+    display: inline-block;
+    margin-right: -4px;
+    
+}
+
+.header-right ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    background: #16a085;
+}
+
+
+/*Banner SECTION*/
+.banner-section{
+    background: url(https://i.ibb.co/SX7cgNL/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 127px;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000036;
+    z-index: -1;
+}
+.banner-section h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.banner-section h4{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.banner-section button{
+    display: inline-block;
+    padding: 12px 29px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.banner-section button:hover{
+    background:#16a085 ;
+}
+
+/*Service section*/
+.secvice-section{
+    padding: 80px 0;
+    border-bottom: 2px solid #1abc9c;
+}
+.service{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.service h1{
+    margin-bottom: 20px;
+    font-family: serif sans-serif;
+}
+
+
+.service-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.service-item span{
+    display: inline-block;
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #1abc9c;
+}
+.service-item h2{
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+
+
+/*About section*/
+
+.about-section{
+    padding: 60px 0;
+}
+.about-us{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.about-items{
+    padding: 0 35px;
+}
+.about-img{
+    float: left;
+    width: 42%;
+}
+.about-img img{
+    width: 100%;
+    max-width: 100%;
+}
+.about-info{
+    float: right;
+    width: 55%;
+}
+.about-info h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-family:  sans-serif;
+}
+.about-info p{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+/*Contact section*/
+
+.contact-section{
+    padding: 20px 0;
+    background: #bdc3c77a;
+}
+.contact-us{
+    text-align: center;
+    padding: 30px 0;
+}
+.contact-items{
+padding: 50px 0;
+box-sizing: border-box;
+}
+.contact-item{
+    width: 341px;
+    float: left;
+    text-align: center;
+}
+.contact-item i{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 14px;
+    color: #1abc9c;
+}
+.contact-item span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-item a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/*icon section*/
+.footer-icon{
+    background: #1abc9c;
+    text-align: center;
+    padding: 23px;
+}
+.footer-icon a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 0px 10px;
+    font-size: 24px;
+    transition: .5s;
+}
+    
+/*Footer section*/
+.footer-section{
+    text-align: center;
+    padding: 14px;
+    background: black;
+}
+.footer-section p{
+    color: rgba(105, 105, 105, 0.856);
+    font-size: 15px;
+    font-weight: 500;
+    font-family:  sans-serif;
+}

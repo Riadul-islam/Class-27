@@ -1,0 +1,9 @@
+/* Responsiv section */
+
+@media(max-width){
+    .header-left h4 {
+       
+        padding: 10px;
+       
+
+}
